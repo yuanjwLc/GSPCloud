@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>Inspur.GS.Scm.SD.Material</AssemblyName>
+    <RootNamespace>Inspur.GS.Scm.SD.Material</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <MetadataProject Include="nothing">
+      <ID>080212c7-1e6d-4f09-8b93-88a31ed18145</ID>
+      <Name>bo-Material</Name>
+      <NameSpace>Inspur.GS.Scm.SD.Material</NameSpace>
+      <MetadataPackageInfo>
+        <Name>Inspur.GS.Scm.SD.Material</Name>
+        <Version>1.0.0</Version>
+      </MetadataPackageInfo>
+      <MetadataPackageRefs />
+    </MetadataProject>
+  </ItemGroup>
+</Project>

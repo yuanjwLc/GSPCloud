@@ -21,7 +21,28 @@
         <Name>Inspur.GS.Scm.SD.SalesOrder</Name>
         <Version>1.0.0</Version>
       </MetadataPackageInfo>
-      <MetadataPackageRefs />
+      <MetadataPackageRefs>
+        <MetadataPackageHeader>
+          <Name>Inspur.GS.Scm.SD.SalesOrgnization</Name>
+          <Version>1.0.0</Version>
+          <Location>/projects/packages</Location>
+        </MetadataPackageHeader>
+        <MetadataPackageHeader>
+          <Name>Inspur.GS.Scm.SD.Employee</Name>
+          <Version>1.0.0</Version>
+          <Location>/projects/packages</Location>
+        </MetadataPackageHeader>
+        <MetadataPackageHeader>
+          <Name>Inspur.GS.Scm.SD.Material</Name>
+          <Version>1.0.0</Version>
+          <Location>/projects/packages</Location>
+        </MetadataPackageHeader>
+        <MetadataPackageHeader>
+          <Name>Inspur.GS.Scm.SD.SalesCompany</Name>
+          <Version>1.0.0</Version>
+          <Location>/projects/packages</Location>
+        </MetadataPackageHeader>
+      </MetadataPackageRefs>
     </MetadataProject>
   </ItemGroup>
 </Project>

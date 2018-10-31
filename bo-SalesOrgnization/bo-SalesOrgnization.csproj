@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>Inspur.GS.Scm.SD.SalesOrgnization</AssemblyName>
+    <RootNamespace>Inspur.GS.Scm.SD.SalesOrgnization</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <MetadataProject Include="nothing">
+      <ID>1e3b80d3-ec4c-4165-9130-bafdced37b89</ID>
+      <Name>bo-SalesOrgnization</Name>
+      <NameSpace>Inspur.GS.Scm.SD.SalesOrgnization</NameSpace>
+      <MetadataPackageInfo>
+        <Name>Inspur.GS.Scm.SD.SalesOrgnization</Name>
+        <Version>1.0.0</Version>
+      </MetadataPackageInfo>
+      <MetadataPackageRefs />
+    </MetadataProject>
+  </ItemGroup>
+</Project>
